@@ -17,25 +17,15 @@
 
     body {
       font-size: 62.5%; /*10px = 1 em*/
-      background-color: rgb(225, 225, 225);
-    }
 
-    .container {
       display: flex;
       justify-content: center;
-      max-width: 1170px; /*VARIABLE*/
-      height: 100%;
-
-      margin: 0 auto;
-      background-color: blue;
     }
 
     header {
-      max-width: 1170px;
       width: 100%;
       height: 100px;
 
-//margin: 0 5px;
       background-color: purple;
     }
 
@@ -63,6 +53,19 @@
       font-size: 2em;
     }
 
+    .grid_view {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0.16666666666%;
+      left: 0.16666666666%;
+
+      background-color: rgb(255,0,0);
+      background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+      background-size: 16.6666666667% 1%;
+      opacity: .2;
+    }
+
 /*MEDIA QUERIES FOR GRIDS*/
 /*END MEDIA QUERIES FOR GRIDS*/
     </style>
@@ -70,7 +73,7 @@
 </head>
 
 <body>
-  <div class="container">
+
     <header><h1>Header</h1></header>
     <nav>
     </nav>
@@ -82,6 +85,8 @@
     </aside>
     <footer>
     </footer>
-  </div>
+
+<div class="grid_view"></div>
+
 </body>
 </html>
