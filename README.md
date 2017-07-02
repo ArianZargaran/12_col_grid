@@ -1,5 +1,5 @@
 # 12_col_grid
 
 
-UPDATE: Header included.
-NEXT: Implement Nav.
+UPDATE: Grid created.
+NEXT: Implement Nav + Add Media Queries for M/S devices.
