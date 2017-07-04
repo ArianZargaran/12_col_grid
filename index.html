@@ -19,6 +19,7 @@
       font-size: 62.5%; /*10px = 1 em*/
 
       display: flex;
+      flex-direction: column;
       justify-content: center;
     }
 
@@ -26,11 +27,30 @@
       width: 100%;
       height: 100px;
 
-      background-color: purple;
+background-color: purple;
     }
 
     nav {
+      width: 100%;
+      height: 75px;
 
+background-color: blue;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 75px;
+
+  background-color: lime;
+    }
+
+    nav ul li {
+      width: 100px;
+      height: 50px;
+
+background-color: green;
     }
 
     section {
@@ -60,15 +80,16 @@
       right: 0.16666666666%;
       left: 0.16666666666%;
 
-      background-color: rgb(255,0,0);
-      background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
-      background-size: 16.6666666667% 1%;
+      background-color: rgba(255,0,0,.2);
+      background-image: linear-gradient(90deg, transparent 50%, rgb(255,255,255) 50%);
+      background-size: 16.6666666667% 100%;
       opacity: .2;
     }
 
 /*MEDIA QUERIES FOR GRIDS*/
 /*END MEDIA QUERIES FOR GRIDS*/
     </style>
+<div class="grid_view"></div>
 
 </head>
 
@@ -76,6 +97,14 @@
 
     <header><h1>Header</h1></header>
     <nav>
+      <ul>
+        <li>Home</li>
+        <li>My Expertise</li>
+        <li>Works</li>
+        <li>Some referrals</li>
+        <li>Contact</li>
+        <li>Social</li>
+      <ul/>
     </nav>
     <section>
     </section>
@@ -85,8 +114,6 @@
     </aside>
     <footer>
     </footer>
-
-<div class="grid_view"></div>
 
 </body>
 </html>
