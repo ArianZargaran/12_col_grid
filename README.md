@@ -2,5 +2,5 @@
 
 ![Sample preview 12 col grid](https://arianzargaran.github.io/12_col_grid/css/styling/preview.png)
 
-UPDATE: Nav included into the Main Header.<br>
-NEXT: Add Media Queries for M/S devices + Screenshot.
+UPDATE: CSS Optimization.<br>
+NEXT: Perform Media Queries for M/S devices.
