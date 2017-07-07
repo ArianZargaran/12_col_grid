@@ -9,7 +9,9 @@
 
     <style>
 
-
+    * {
+      box-sizing: border-box;
+    }
 
     html {
 
@@ -17,40 +19,48 @@
 
     body {
       font-size: 62.5%; /*10px = 1 em*/
-
       display: flex;
       flex-direction: column;
-      justify-content: center;
     }
 
     header {
+      display: flex;
       width: 100%;
-      height: 100px;
-
-background-color: purple;
+      height: 10em;
     }
 
     nav {
-      width: 100%;
-      height: 75px;
-
-background-color: blue;
+      width: 50%;
+      height: 10em;
+      display: flex;
+      justify-content: center;
     }
 
     nav ul {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 75px;
-
-  background-color: lime;
+      align-self: center;
     }
 
     nav ul li {
-      width: 100px;
-      height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    }
 
-background-color: green;
+    ul li a {
+      display: flex;
+      text-decoration: none;
+
+      color: black;
+      font-size: 1.8em;
+      padding: 3px;
+      border-bottom: 1px solid transparent;
+    }
+
+    ul li a:hover {
+      border-bottom: 1px solid black;
+      background-color: #ccc;
     }
 
     section {
@@ -71,6 +81,9 @@ background-color: green;
 
     h1 {
       font-size: 2em;
+      width: 50%;
+      line-height: 5em;
+      padding-left: 2.5%;
     }
 
     .grid_view {
@@ -84,28 +97,30 @@ background-color: green;
       background-image: linear-gradient(90deg, transparent 50%, rgb(255,255,255) 50%);
       background-size: 16.6666666667% 100%;
       opacity: .2;
+      z-index: -1;
     }
 
 /*MEDIA QUERIES FOR GRIDS*/
 /*END MEDIA QUERIES FOR GRIDS*/
     </style>
-<div class="grid_view"></div>
 
 </head>
 
 <body>
 
-    <header><h1>Header</h1></header>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>My Expertise</li>
-        <li>Works</li>
-        <li>Some referrals</li>
-        <li>Contact</li>
-        <li>Social</li>
-      <ul/>
-    </nav>
+    <header>
+      <h1>Header</h1>
+      <nav>
+        <ul>
+          <li><a href="#/">Home</a></li>
+          <li><a href="#/">My Expertise</a></li>
+          <li><a href="#/">Works</a></li>
+          <li><a href="#/">Some referrals</a></li>
+          <li><a href="#/">Contact</a></li>
+          <li><a href="#/">Social</a></li>
+        <ul/>
+      </nav>
+    </header>
     <section>
     </section>
     <article>
@@ -115,5 +130,6 @@ background-color: green;
     <footer>
     </footer>
 
+<div class="grid_view"></div>
 </body>
 </html>
