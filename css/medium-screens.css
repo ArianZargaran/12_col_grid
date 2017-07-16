@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media only screen and (max-width: 56.938em) {
+@media only screen and (max-width: 56.938em) and (min-width: 33.501em) {
 * {
 	box-sizing: border-box;
 }
