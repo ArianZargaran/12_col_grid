@@ -1,61 +1,70 @@
-@charset "UTF-8";
+@media only screen and (max-width: 33.5em) {
+  /* line 5, scss/small-screens.scss */
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
 
-@media only screen and (max-width: 33.500em) {
+  /* line 9, scss/small-screens.scss */
+  a {
+    text-decoration: none;
+    color: black; }
 
-	* {
-		box-sizing: border-box;
-	}
+  /* line 14, scss/small-screens.scss */
+  body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
 
-	a {
-			text-decoration: none;
-			color: black;
-	}
+  /* line 22, scss/small-screens.scss */
+  .flex-container {
+    height: 51px;
+    text-align: center;
+    line-height: 51px;
+    background-color: yellow; }
 
-	body {
-		font-family: Helvetica, sans-serif;
-		font-size: 18px;
-		display: flex;
-		flex-direction: column;
-		align-items: stretch;
-	}
+  /* line 29, scss/small-screens.scss */
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    /* line 32, scss/small-screens.scss */
+    header h1 {
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+      height: 51px;
+      background-color: blue; }
+      /* line 36, scss/small-screens.scss */
+      header h1 a {
+        display: block;
+        width: 100%;
+        background-color: lime; }
 
-	.flex-container {
-			height: 51px;
-			text-align: center;
-			line-height: 51px;
-			background-color: yellow;
-	}
+  /* line 45, scss/small-screens.scss */
+  header nav {
+    -ms-flex-item-align: stretch;
+        align-self: stretch; }
+    /* line 47, scss/small-screens.scss */
+    header nav li {
+      list-style: none;
+      height: 51px;
+      width: 100%; }
+      /* line 51, scss/small-screens.scss */
+      header nav li a {
+        display: block;
+        color: white;
+        background-color: blue; } }
 
-	header {
-		display: flex;
-		flex-direction: column;
-	}
-
-	header h1 {
-			align-self: stretch;
-			height: 51px;
-			background-color: blue;
-	}
-
-	header h1 a {
-			display: block;
-			width: 100%;
-	background-color: lime;
-	}
-
-	header nav {
-		align-self: stretch;
-	}
-
-	header nav li {
-		list-style: none;
-		height: 51px;
-		width: 100%;
-	}
-
-	header nav li a {
-display: block;
-color: white;
-background-color: blue;
-	}
-}
+/*# sourceMappingURL=small-screens.css.map */
