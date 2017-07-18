@@ -2,5 +2,5 @@
 
 ![Sample preview 12 col grid](https://arianzargaran.github.io/12_col_grid/css/styling/preview.png)
 
-UPDATE: Medium screen query updated.<br>
+UPDATE: Sass syntax adopted.<br>
 NEXT: Reformulate the scene with flexbox display. Background pattern to include on Main section.
