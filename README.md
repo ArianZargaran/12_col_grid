@@ -4,4 +4,5 @@
 
 UPDATE: Sass syntax adopted.<br>
 NEXT: Reformulate the scene with flexbox display. Background pattern to include on Main section.
-14:09
+<br />14:09
+http://gedd.ski/build/overwatch-hero-picker/
