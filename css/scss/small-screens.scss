@@ -23,7 +23,6 @@
 			height: 51px;
 			text-align: center;
 			line-height: 51px;
-			background-color: yellow;
 	}
 
 	header {
@@ -71,4 +70,25 @@
 		z-index: -1;
 		}
 
+}
+
+/*CONTACT SECTION*/
+
+.contact {
+  background-color: #232728;
+  overflow:hidden;
+  font-family:'Rakkas';
+}
+#pixiCanvas{
+  position:absolute;
+}
+
+.title{
+  position:absolute;
+  left:50%;
+  top:30%;
+  text-align:center;
+  transform:translate(-50%, -50%);
+  color:#DBAB4C;
+  font-size:4em;
 }

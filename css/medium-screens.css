@@ -1,15 +1,12 @@
 @media only screen and (max-width: 56.938em) and (min-width: 33.501em) {
-  /* line 4, scss/medium-screens.scss */
   * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
 
-  /* line 8, scss/medium-screens.scss */
   a {
     text-decoration: none;
     color: black; }
 
-  /* line 13, scss/medium-screens.scss */
   body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -21,14 +18,11 @@
         -ms-flex-direction: column;
             flex-direction: column; }
 
-  /* line 20, scss/medium-screens.scss */
   .flex-container {
     width: 83.33333334%;
     height: 51px;
-    margin: 0 auto;
-    background-color: #C74375; }
+    margin: 0 auto; }
 
-  /* line 27, scss/medium-screens.scss */
   header {
     height: 100%;
     display: -webkit-box;
@@ -38,7 +32,6 @@
         -ms-flex-pack: justify;
             justify-content: space-between; }
 
-  /* line 33, scss/medium-screens.scss */
   header h1 {
     font-family: 'Arvo', serif;
     width: 25%;
@@ -47,7 +40,6 @@
     -ms-flex-negative: .5;
         flex-shrink: .5; }
 
-  /* line 41, scss/medium-screens.scss */
   header nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -64,20 +56,16 @@
     background-color: blue;
     -ms-flex-negative: 1;
         flex-shrink: 1; }
-    /* line 48, scss/medium-screens.scss */
     header nav li {
       list-style: none; }
 
-  /* line 53, scss/medium-screens.scss */
   header nav li a {
     padding: 5px 10px;
     border-bottom: 1px solid transparent; }
-    /* line 56, scss/medium-screens.scss */
     header nav li a:hover {
       border-bottom: 1px solid black; }
 
   /*SECTION 1 - Typewritter effect*/
-  /* line 62, scss/medium-screens.scss */
   section {
     width: 100%;
     height: 500px;
@@ -90,7 +78,6 @@
         -ms-flex-pack: center;
             justify-content: center; }
 
-  /* line 71, scss/medium-screens.scss */
   .typewriter h2 {
     font-size: 26px;
     color: #fff;
@@ -130,7 +117,6 @@
     50% {
       border-color: orange; } }
   /*GRID VIEW STARTS*/
-  /* line 96, scss/medium-screens.scss */
   .grid_view {
     position: absolute;
     top: 0;
@@ -143,5 +129,23 @@
     background-size: 16.6666666667% 100%;
     opacity: .2;
     z-index: -1; } }
+/*CONTACT SECTION*/
+.contact {
+  background-color: #232728;
+  overflow: hidden;
+  font-family: 'Rakkas'; }
+
+#pixiCanvas {
+  position: absolute; }
+
+.title {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #DBAB4C;
+  font-size: 4em; }
 
 /*# sourceMappingURL=medium-screens.css.map */

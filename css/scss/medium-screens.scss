@@ -21,7 +21,6 @@ body {
 	width: 83.33333334%;
 	height: 51px;
 	margin: 0 auto;
-background-color: #C74375;
 }
 
 header {
@@ -106,4 +105,25 @@ background-color: red;
 	opacity: .2;
 	z-index: -1;
 	}
+}
+
+/*CONTACT SECTION*/
+
+.contact {
+  background-color:#232728;
+  overflow:hidden;
+  font-family:'Rakkas';
+}
+#pixiCanvas{
+  position:absolute;
+}
+
+.title{
+  position:absolute;
+  left:50%;
+  top:30%;
+  text-align:center;
+  transform:translate(-50%, -50%);
+  color:#DBAB4C;
+  font-size:4em;
 }
